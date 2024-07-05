@@ -13,48 +13,38 @@
 
 <body>
     <header>
+
+        <!-- Sectores -->
         <div class="container">
             <h1 class="logo">Star Wars Info</h1>
             <nav>
                 <ul>
-                    <li><a href="#personajes">Personajes</a></li>
-                    <li><a href="#naves">Naves Espaciales</a></li>
-                    <li><a href="#peliculas">Películas</a></li>
+                    <li><a href="#" data-section="personajes">Personajes</a></li>
+                    <li><a href="#" data-section="naves">Naves Espaciales</a></li>
+                    <li><a href="#" data-section="peliculas">Películas</a></li>
                 </ul>
             </nav>
+
+            <!-- Barra de busqueda -->
             <div class="search-bar">
-                <input type="text" placeholder="Buscar...">
-                <button type="button">Buscar</button>
+                <input type="text" id="searchInput" placeholder="Buscar...">
             </div>
         </div>
     </header>
 
     <main>
         <div class="dataContainer" id="dataContainer">
-            <!-- Card de personaje
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Name</h5>
-                                <p class="card-text">altura: </p>
-                                <p class="card-text">masa: </p>
-                                <p class="card-text">color de cabello: </p>
-                                <p class="card-text">color de piel: </p>
-                                <p class="card-text">color de ojos: </p>
-                                <p class="card-text">año de nacimiento: </p>
-                                <p class="card-text">genero: </p>
-                                <p class="card-text">planeta natal: </p>
-                                <p class="card-text">peliculas: </p>
-                                <p class="card-text">especie: </p>
-                                <p class="card-text">vehiculos: </p>
-                                <p class="card-text">naves: </p>
-                            </div>
-                        </div> -->
+            <!-- Aca se cargan las targetas -->
         </div>
+
+        <!-- Botones de paginas -->
         <div class="pagination">
             <button id="prevPage" disabled>Anterior</button>
             <button id="nextPage">Siguiente</button>
         </div>
     </main>
+
+    <!-- linkeo js -->
     <script src="js/js.js"></script>
 </body>
 

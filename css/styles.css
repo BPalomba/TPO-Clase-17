@@ -202,3 +202,7 @@ body {
 #fetchData:hover {
     background-color: #fff;
 }
+
+span {
+    font-weight: bold;
+}
