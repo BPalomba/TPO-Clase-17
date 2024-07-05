@@ -48,6 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let cards = document.querySelectorAll('.card');
         cards.forEach(card => {
             let cardTitle = card.querySelector('.card-title').textContent.toLowerCase();
+            if (searchText == ' ' || searchText == '') {
+                card.style.display = 'block';
+
+            }
             if (cardTitle.includes(searchText)) {
                 card.style.display = 'block';
             } else {
@@ -58,9 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('searchInput').addEventListener('input', () => {
         let searchText = document.getElementById('searchInput').value.trim().toLowerCase();
-        if (searchText !== '') {
-            filterData(searchText);
-        }
+
+        filterData(searchText);
+
     });
 
 
