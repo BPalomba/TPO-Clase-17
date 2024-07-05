@@ -1,0 +1,204 @@
+body {
+    background-image: url(../img/fondostarwars.jpeg);
+}
+
+/* Estilos generales */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Star Jedi', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #ffd700;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #ffd700;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    background-color: #333;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.search-bar button:hover {
+    background-color: #fff;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vh;
+
+}
+
+/* Fondo de la página */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Star Jedi', Arial, sans-serif;
+}
+
+/* Contenedor de datos */
+#dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilo de la carta */
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #ffd700;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: solid yellow 2px
+}
+
+/* Cuerpo de la carta */
+.card-body {
+    padding: 15px;
+}
+
+/* Título de la carta */
+.card-title {
+    color: #ffd700;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Texto de la carta */
+.card-text {
+    color: black;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:hover {
+    background-color: #fff;
+}
+
+.pagination button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+/* Fuentes personalizadas */
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('https://fonts.cdnfonts.com/s/16370/Starjedi.ttf') format('truetype');
+}
+
+/* Botón de solicitud */
+#fetchData {
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: auto;
+}
+
+#fetchData:hover {
+    background-color: #fff;
+}
