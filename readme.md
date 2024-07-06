@@ -25,4 +25,8 @@ Recursos:
 Documentación de la Star Wars API (SWAPI)
 https://swapi.dev/
 
+
+<h1>Link a la pagina</h1>
+<a href="https://bpalomba.github.io/TPO-Clase-17/">Mi pagina</a>
+
 Fecha de entrega: 8 de julio# TPO-Clase-17
